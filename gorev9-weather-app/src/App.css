@@ -1,0 +1,83 @@
+.App {
+  text-align: left;
+  line-height:unset !important;
+  padding: 70px 0;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 770px;
+  height: 200px;
+}
+
+.App :first{
+  display: flex;
+  justify-content: center;
+  align-items: lefts;
+  height: 200px;
+  border: 3px solid green;
+  
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cityStyle{
+  text-align: center;
+  align-items:center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.Land{
+  margin-top:100px;
+}
+.btn1{
+  height: 45px;
+}
+
+.img{
+  background-image: url(./images/mountain.jpg);
+  height: 400px;
+}
+.img2{
+  background-image: url(./images/sunny.jpg);
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  margin-left: 770px;
+  text-align: center;
+}
+.h1{
+  text-align: center;
+}
